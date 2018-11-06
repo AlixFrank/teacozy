@@ -1,0 +1,50 @@
+/*Universal styles*/
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+p{
+    text-align: center;
+}
+
+/*Header section*/
+header{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    width: 100%
+}
+
+.title img{
+    height: 50px;
+    padding: 9.5px 0 9.5px 10px;
+}
+
+.navigation{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    text-decoration: underline;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell
+}
+
+.navigation a{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell
+}
+
+
+/*Main*/
+
+
+/*Footer*/
