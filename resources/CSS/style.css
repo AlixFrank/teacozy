@@ -60,6 +60,7 @@ header{
 }
 
 .mission h2, .mission h4{
+    display: block;
     background-color: black;
     width: 1200px;
     justify-content: center;
@@ -95,7 +96,7 @@ header{
 }
 
 .item h4{
-    justify-content: center;
+    text-align: center;
     margin-top: 10px;
 }
 
@@ -103,13 +104,16 @@ header{
 /*Locations section*/
 .locations{
     display: flex;
-    display: block;
+    display: inline-block;
     width: 1200px;
     height: 500px;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
     justify-content: center;
     align-content: center;
     margin: 0 auto 0 auto;
+    position: relative;
+    top: 150px;
+    text-align: center;
 }
 
 .address{
@@ -127,11 +131,18 @@ header{
     height: 300px;
     opacity: 1;
     background-color: black;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /*Footer*/
+.footer{
+    position: relative;
+    top: 500px;
+    margin: 0 auto 0 auto;
+}
+
 .contact{
     text-align: center;
     height: 200px;
@@ -139,5 +150,5 @@ header{
 
 .copyright{
     text-align: left;
-    margin-left: 20px;
+    margin: 0 auto 0 20px;
 }
