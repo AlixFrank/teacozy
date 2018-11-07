@@ -65,4 +65,33 @@ header{
     justify-content: center;
 }
 
+/*Tea of the Month secton*/
+.month{
+    display: flex;
+    width: 1000px;
+}
+
+.headline{
+    display: flex;
+}
+
+ .headline h2, .headline h4{
+    display: block;
+ }
+
+.image-content img{
+    width: 300px;
+    height: 200px;
+}
+
+.tea{
+    display: flex;
+}
+
+.item{
+    flex-flow: row wrap;
+    align-content: space-around;
+    max-width: 1000px;
+}
+
 /*Footer*/
