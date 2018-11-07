@@ -46,5 +46,23 @@ header{
 
 /*Main*/
 
+/*Mission section*/
+.mission{
+    display: flex;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    position: relative;
+    top: 69px;
+}
+
+.mission h2, .mission h4{
+    background-color: black;
+    width: 1200px;
+    justify-content: center;
+}
 
 /*Footer*/
