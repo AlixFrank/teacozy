@@ -54,7 +54,7 @@ header{
     width: 1200px;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0 auto;
     position: relative;
     top: 69px;
 }
@@ -92,6 +92,38 @@ header{
     flex-flow: row wrap;
     align-content: space-around;
     max-width: 1000px;
+}
+
+
+/*Locations section*/
+.locations{
+    display: flex;
+    display: block;
+    width: 1200px;
+    height: 500px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto 0 auto;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    width: 980px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square{
+    display: flex;
+    display: block;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Footer*/
