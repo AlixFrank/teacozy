@@ -127,3 +127,11 @@ header{
 }
 
 /*Footer*/
+.contact{
+    text-align: center;
+    height: 200px;
+}
+
+.copyright{
+    margin-left: 20px;
+}
