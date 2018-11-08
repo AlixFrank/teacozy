@@ -28,20 +28,20 @@ header{
     padding: 9.5px 0 9.5px 10px;
 }
 
-.navigation{
+nav{
     display: flex;
-    justify-content:flex-end;
+    text-align: right;
     align-items: center;
-    text-decoration: underline;
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell
+    justify-content: center;
 }
 
-.navigation a{
+nav a{
+    display: inline-block;
+    padding: 20px 10px;
     font-family: Helvetica;
     font-size: 22px;
-    color: seashell
+    color: seashell;
+    text-decoration: underline;
 }
 
 
@@ -50,21 +50,23 @@ header{
 /*Mission section*/
 .mission{
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
     height: 700px;
     width: 1200px;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto 0 auto;
     position: relative;
     top: 69px;
 }
 
-.mission h2, .mission h4{
-    display: block;
-    background-color: black;
+.mission h2,
+.mission h4{
     width: 1200px;
-    justify-content: center;
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
 }
 
 /*Tea of the Month secton*/
@@ -123,6 +125,7 @@ header{
     width: 980px;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
 }
 
 .square{
